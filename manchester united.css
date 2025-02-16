@@ -1,0 +1,110 @@
+#design{
+    margin:0 auto;
+    width: 750px;
+    padding: 20px;
+    background-color: white;
+}
+#entete{
+    display: flex;
+    justify-content: space-between;
+}
+#bloc1,#bloc2{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+
+#bloc1 { background: linear-gradient(to left, #ee0303 0%, #999e97 100%); }
+  #bloc2 { background: linear-gradient(to left, #ee0303 0%, #999e97 100%); }
+  #bloc2{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+  }
+  #bloc3 { background: linear-gradient(to left, #ee0303 0%, #999e97 100%); }
+#bloc3{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 60pt;
+    text-indent:1.5em ;
+}
+#bloc3 p{
+    margin: 0;
+}
+#bloc3 p:nth-of-type(2){
+    font-weight: bold;
+}
+#bloc3 p:nth-of-type(3){
+    text-align: right;
+    font-weight: bold;
+}
+#bloc3 p:nth-of-type(4){
+    text-align:center ;
+}
+#bloc3 p:nth-of-type(5){
+    text-align:left ;
+    color: black;
+    font-size: 30px;
+}
+#bloc3 p:nth-of-type(6){
+    text-align:left ;
+    font-size: 16px;
+}
+#bloc3 p:nth-of-type(7){
+    text-align:center ;
+    color: black;
+    font-size: 30px;
+}
+#bloc3 p:nth-of-type(8){
+    text-align:left ;
+    font-size: 16px;
+}
+#bloc3 p:nth-of-type(9){
+    text-align:left ;
+    font-size: 30px;
+    color: black;
+}
+#bloc3 p:nth-of-type(10){
+    text-align:left ;
+    font-size: 16px;
+}
+#bloc3 p:nth-of-type(11){
+    text-align:left ;
+    font-size: 30px;
+    color: black;
+}
+#bloc3 p:nth-of-type(12){
+    text-align:left ;
+    font-size: 16px;
+}
+#bloc4{
+    width: 750px;
+    height: 442px;
+    background: url(man\ utd\ logo.jfif);
+    background-size: cover;
+    position: relative;
+}
+#bloc5{
+    width: 250px;
+    height: 140px;
+    background: url(manchester.jpg);
+    border: solid 10px white;
+    background-size: contain;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+#bloc6{
+    width: 230px;
+    height: 120px;
+    background: url(downloadm.jpg);
+    border: solid 10px white;
+    background-size: contain;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+}
+
+

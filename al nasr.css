@@ -1,0 +1,97 @@
+#design{
+    margin:0 auto;
+    width: 750px;
+    padding: 20px;
+    background-color: white;
+  }
+  #entete{
+    display: flex;
+    justify-content: space-between;
+  }
+  #bloc1,#bloc2{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+  }
+  
+  #bloc1 { background: linear-gradient(to left, rgb(192, 224, 7) 0%, #2d2ba7 100%); }
+  #bloc2 { background: linear-gradient(to left, rgb(192, 224, 7) 0%, #2d2ba7 100%); }
+  #bloc2{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+  }
+  #bloc3 { background: linear-gradient(to left, rgb(192, 224, 7) 0%, #2d2ba7 100%); }
+  #bloc3{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 60pt;
+    text-indent:1.5em ;
+  }
+  #bloc3 p{
+    margin: 0;
+    font-family:'Sedgwick Ave Display', cursive;
+    font-size: 55px;
+    text-align:left ;
+    
+  }
+  #bloc3 p:nth-of-type(2){
+    font-weight: bold;
+    text-align: center;
+    font-family:'Sedgwick Ave Display', cursive;
+    
+  }
+  #bloc3 p:nth-of-type(3){
+    font-weight: bold;
+    text-align: center;
+    font-family:'Sedgwick Ave Display', cursive;
+    text-align: right;
+  }
+  #bloc3 p:nth-of-type(4){
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+  }
+  #bloc3 p:nth-of-type(5){
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 16px;
+  }
+  #bloc3 p:nth-of-type(6){
+    color: black;
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+  }
+  #bloc4{
+    width: 750px;
+    height: 442px;
+    background: url(NAXS.jfif);
+    background-size: cover;
+    position: relative;
+  }
+  #bloc5{
+    width: 80px;
+    height: 150px;
+    background: url(NAS.jfif);
+    border: solid 10px white;
+    background-size: contain;
+    position: absolute;
+    top:  280px;
+    right: -10px;
+  }
+  #bloc6{
+    width: 150px;
+    height: 100px;
+    background: url(nasr\ logo.jpg);
+    border: solid 10px white;
+    background-size: contain;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+  }
+  

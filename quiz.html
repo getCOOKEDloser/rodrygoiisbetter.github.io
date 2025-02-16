@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo</title>
+    <style>
+        .corner {
+            position: absolute;
+            padding: 20px;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+        }
+        .top-left {
+            top: 0;
+            left: 0;
+            animation: slideDown 5s infinite;
+        }
+        .top-right {
+            top: 0;
+            right: 0;
+            animation: slideDown 5s infinite;
+        }
+        @keyframes slideDown {
+            0% {
+                transform: translateY(-100%);
+            }
+            50% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-100%);
+            }
+        }footer {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease; /* Enhance transition duration and easing */
+}
+
+footer:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change background color on hover */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease; /* Add transition to all list items */
+}
+
+footer ul li {
+    margin: 10px;
+    transition: all 0.5s ease; /* Add transition to list items */
+}
+
+footer ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+
+footer ul li a:hover {
+    color: #0026ff;
+    font-size: 22px;
+}
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+  <div class="background"></div>
+  <div class="corner top-left">Cristiano Ronaldo - Legend</div>
+  <div class="corner top-right">CR7 - Greatest of All Time</div>
+</body>
+</html>
+    <title>Cristiano Ronaldo Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            background: linear-gradient(to right, #669adf 0%, #8bc34a 100%);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question h3 {
+            margin-bottom: 10px;
+            color: #000000;
+        }
+        .question input {
+            margin-right: 10px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cristiano Ronaldo Quiz</h1>
+        <form id="quizForm">
+            <div class="question">
+                <h3>1. What is Cristiano Ronaldo's full name?</h3>
+                <input type="radio" name="q1" value="correct"> Cristiano Ronaldo dos Santos Aveiro<br>
+                <input type="radio" name="q1" value="incorrect"> Cristiano Ronaldo Silva<br>
+                <input type="radio" name="q1" value="incorrect"> Cristiano Ronaldo de Lima<br>
+                <input type="radio" name="q1" value="incorrect"> Cristiano Ronaldo Mendes
+            </div>
+            <div class="question">
+                <h3>2. When was Cristiano Ronaldo born?</h3>
+                <input type="radio" name="q2" value="incorrect"> February 5, 1986<br>
+                <input type="radio" name="q2" value="correct"> February 5, 1985<br>
+                <input type="radio" name="q2" value="incorrect"> February 5, 1984<br>
+                <input type="radio" name="q2" value="incorrect"> February 5, 1983
+            </div>
+            <div class="question">
+                <h3>3. Which club did Ronaldo join in 2009?</h3>
+                <input type="radio" name="q3" value="correct"> Real Madrid<br>
+                <input type="radio" name="q3" value="incorrect"> Manchester United<br>
+                <input type="radio" name="q3" value="incorrect"> Juventus<br>
+                <input type="radio" name="q3" value="incorrect"> Sporting CP
+            </div>
+            <div class="question">
+                <h3>4. How many Ballon d'Or awards has Ronaldo won (as of 2021)?</h3>
+                <input type="radio" name="q4" value="incorrect"> 4<br>
+                <input type="radio" name="q4" value="correct"> 5<br>
+                <input type="radio" name="q4" value="incorrect"> 6<br>
+                <input type="radio" name="q4" value="incorrect"> 7
+            </div>
+            <div class="question">
+                <h3>5. What jersey number does Ronaldo commonly wear?</h3>
+                <input type="radio" name="q5" value="correct"> 7<br>
+                <input type="radio" name="q5" value="incorrect"> 9<br>
+                <input type="radio" name="q5" value="incorrect"> 10<br>
+                <input type="radio" name="q5" value="incorrect"> 11
+            </div>
+            <div class="question">
+                <h3>6. Which country is Cristiano Ronaldo from?</h3>
+                <input type="radio" name="q6" value="correct"> Portugal<br>
+                <input type="radio" name="q6" value="incorrect"> Spain<br>
+                <input type="radio" name="q6" value="incorrect"> Brazil<br>
+                <input type="radio" name="q6" value="incorrect"> Argentina
+            </div>
+            <div class="question">
+                <h3>7. Which team did Ronaldo play for before joining Manchester United in 2003?</h3>
+                <input type="radio" name="q7" value="incorrect"> Porto<br>
+                <input type="radio" name="q7" value="incorrect"> Benfica<br>
+                <input type="radio" name="q7" value="correct"> Sporting CP<br>
+                <input type="radio" name="q7" value="incorrect"> Boavista
+            </div>
+            <div class="question">
+                <h3>8. Which year did Ronaldo win his first Champions League title?</h3>
+                <input type="radio" name="q8" value="incorrect"> 2006<br>
+                <input type="radio" name="q8" value="incorrect"> 2007<br>
+                <input type="radio" name="q8" value="correct"> 2008<br>
+                <input type="radio" name="q8" value="incorrect"> 2009
+            </div>
+            <div class="question">
+                <h3>9. How many goals did Ronaldo score for Real Madrid?</h3>
+                <input type="radio" name="q9" value="incorrect"> 350<br>
+                <input type="radio" name="q9" value="correct"> 450<br>
+                <input type="radio" name="q9" value="incorrect"> 400<br>
+                <input type="radio" name="q9" value="incorrect"> 500
+            </div>
+            <div class="question">
+                <h3>10. What is Ronaldo's nickname?</h3>
+                <input type="radio" name="q10" value="incorrect"> CR5<br>
+                <input type="radio" name="q10" value="correct"> CR7<br>
+                <input type="radio" name="q10" value="incorrect"> CR9<br>
+                <input type="radio" name="q10" value="incorrect"> CR10
+            </div>
+            <button type="button" onclick="calculateScore()">Submit</button>
+        </form>
+        <h2 id="result"></h2>
+    </div>
+
+    <script>
+        function calculateScore() {
+            var form = document.getElementById('quizForm');
+            var result = document.getElementById('result');
+            var score = 0;
+
+            if (form.q1.value === 'correct') score++;
+            if (form.q2.value === 'correct') score++;
+            if (form.q3.value === 'correct') score++;
+            if (form.q4.value === 'correct') score++;
+            if (form.q5.value === 'correct') score++;
+            if (form.q6.value === 'correct') score++;
+            if (form.q7.value === 'correct') score++;
+            if (form.q8.value === 'correct') score++;
+            if (form.q9.value === 'correct') score++;
+            if (form.q10.value === 'correct') score++;
+
+            result.textContent = 'Your score is: ' + score + '/10';
+            if (score >= 8) {
+                result.style.backgroundColor = 'green';
+                result.style.color = 'white';
+            } else {
+                result.style.backgroundColor = 'red';
+                result.style.color = 'white';
+            }
+        }
+    </script>
+        <footer>
+            <ul>
+                <li><a href="first page.html">First Page</a></li>
+                <li><a href="sporting.html">Sporting</a></li>
+                <li><a href="manchester united.html">Manchester United</a></li>
+                <li><a href="real madrid.html">Real Madrid</a></li>
+                <li><a href="juventus.html">Juventus</a></li>
+                <li><a href="al nasr.html">Al Nasr</a></li>
+                <li><a href="portugal.html">Portugal</a></li>
+                <li><a href="the creators.html">the end</a></li>
+            </ul>
+        </footer>
+</body>
+</html>

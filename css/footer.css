@@ -1,0 +1,45 @@
+footer {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.5s ease; /* Enhance transition duration and easing */
+}
+
+footer:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Change background color on hover */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: all 0.5s ease; /* Add transition to all list items */
+}
+
+footer ul li {
+    margin: 10px;
+    transition: all 0.5s ease; /* Add transition to list items */
+}
+
+footer ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.5s;
+}
+
+footer ul li a:hover {
+    color: #0026ff;
+    font-size: 22px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,96 @@
+#design{
+    margin:0 auto;
+    width: 750px;
+    padding: 20px;
+    background-color: white;
+}
+#entete{
+    display: flex;
+    justify-content: space-between;
+}
+#bloc1,#bloc2{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+
+#bloc1 { background: linear-gradient(to right, #4caf50 0%, #8bc34a 100%); }
+#bloc2 { background: linear-gradient(to left, #00bcd4 0%, #2196f3 100%); }
+#bloc2{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+}
+#bloc3 { background: linear-gradient(to right, #4caf50 0%, #8bc34a 100%); }
+#bloc3{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 60pt;
+    text-indent:1.5em ;
+}
+#bloc3 p{
+    margin: 0;
+}
+#bloc3 p:nth-of-type(1){
+    font-weight: bold;
+    font-size: 23px;
+    color: gold;
+    text-align: left;
+}
+#bloc3 p:nth-of-type(2){
+    font-weight: bold;
+    font-size: 23px;
+    color: gold;
+    text-align: left;
+}
+#bloc3 p:nth-of-type(3){
+    text-align: left;
+    font-weight: bold;
+    font-size: 23px;
+    color: gold;
+}
+#bloc3 p:nth-of-type(4){
+    text-align: left;
+    font-size: 23px;
+    color: gold;
+}
+#bloc3 p:nth-of-type(5){
+    text-align: left;
+    font-size: 20px;
+    color: gold;
+}
+
+
+#PHOTO{
+    width: 900px;
+    height: 300px;
+    background: linear-gradient(to right, #148d3c 0%, #2148f3 100%);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10%;
+}
+#entet{
+    display: flex;
+    
+}
+#bloc9{
+    width: 120px;
+    height: 160px;
+    background: url(AYMENMANIHH.jpg) ;
+    border: solid 5px black;
+    background-size: contain;
+    position: absolute;
+    position: relative;
+    left: 400px;
+}
+
+#bloc11 p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 200px;
+    LEFT: 150PX;
+}
+

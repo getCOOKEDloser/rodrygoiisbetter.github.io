@@ -1,0 +1,113 @@
+#design{
+    margin:0 auto;
+    width: 750px;
+    padding: 20px;
+    background-color: white;
+  }
+  #entete{
+    display: flex;
+    justify-content: space-between;
+  }
+  #bloc1,#bloc2{
+    width: 350px;
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+  }
+  
+  #bloc1 { background: linear-gradient(to left, #cfc7c7 0%, #222421 100%); }
+  #bloc2 { background: linear-gradient(to left, #cfc7c7 0%, #222421 100%); }
+  #bloc2{
+    text-transform: uppercase;
+    letter-spacing: 20px;
+  }
+  #bloc3 { background: linear-gradient(to left, #cfc7c7 0%, #222421 100%); }
+  #bloc3{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 60pt;
+    text-indent:1.5em ;
+  }
+  #bloc3 p{
+    margin: 0;
+    font-family:'Sedgwick Ave Display', cursive;
+    font-size: 55px;
+    text-align:left ;
+    
+  }
+  #bloc3 p:nth-of-type(2){
+    font-weight: bold;
+    text-align: center;
+    font-family:'Sedgwick Ave Display', cursive;
+    
+  }
+  #bloc3 p:nth-of-type(3){
+    font-weight: bold;
+    text-align: center;
+    font-family:'Sedgwick Ave Display', cursive;
+    text-align: right;
+  }
+  #bloc3 p:nth-of-type(4){
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+  }
+  #bloc3 p:nth-of-type(5){
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 16px;
+  }
+  #bloc3 p:nth-of-type(6){
+    color: black;
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 30px;
+  }
+  #bloc3 p:nth-of-type(7){
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 16px;
+    
+  }
+  #bloc3 p:nth-of-type(8){
+    color: black;
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 25px;
+  }
+  #bloc3 p:nth-of-type(9){
+    text-align:left ;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 16px;
+  }
+  #bloc4{
+    width: 750px;
+    height: 442px;
+    background: url(JUV\ LOGO.jfif);
+    background-size: cover;
+    position: relative;
+  }
+  #bloc5{
+    width: 170px;
+    height: 166px;
+    background: url(CR7\ JUV\ 2.jfif);
+    border: solid 10px white;
+    background-size: contain;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+  }
+  #bloc6{
+    width: 150px;
+    height: 100px;
+    background: url(juventus.jpg);
+    border: solid 10px white;
+    background-size: contain;
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+  }
